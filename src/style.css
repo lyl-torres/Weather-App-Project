@@ -1,3 +1,52 @@
+body {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+
+.Weather {
+  background: #14666b;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  padding: 40px;
+  color: white;
+}
+
 h1 {
-  color: blue;
+  margin: 20px 0 10px;
+  line-height: 29px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #272142;
+}
+.containter {
+  box-sizing: border-box;
+  color: rgb(33, 37, 41);
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  height: 665px;
+  line-height: 24px;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 960px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+  text-size-adjust: 100%;
+  width: 800px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  list-style: none;
 }
