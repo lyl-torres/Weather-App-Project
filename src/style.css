@@ -68,5 +68,5 @@ li {
 }
 .signature {
   color: #a9a6b3;
-  display: block;
+  position: relative;
 }
