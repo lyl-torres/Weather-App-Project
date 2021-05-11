@@ -31,6 +31,8 @@ function displayTemperature(response) {
     let dateElement = document.querySelector("#date");
     let iconElement = document.querySelector("#icon");
 
+    celsiusTemperature = response.data.main.temp;
+
     temperatureElement.innerHTML = Math.round (response.data.main.temp);
     cityElement.innerHTML = response.data.name;
     descriptionElement.innerHTML = response.data.weather[0].description;
@@ -44,11 +46,12 @@ function displayTemperature(response) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
-
+function search(city) {
 let apiKey = "ad95ba85cf6afff9b76905b9243ff9af";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Mexico&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then (displayTemperature);
+}
 
 function handleSubmit(event) {
   event.preventDefault();
