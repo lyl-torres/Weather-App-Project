@@ -49,4 +49,15 @@ let apiKey = "ad95ba85cf6afff9b76905b9243ff9af";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Mexico&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then (displayTemperature);
+
+function handleSubmit(event) {
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-input");
+  search(cityInputElement.value);
+}
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit);
+
+search("New York");
  
