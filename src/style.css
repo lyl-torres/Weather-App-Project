@@ -98,11 +98,30 @@ li:first-letter {
 
 a {
   color: #494949;
-  cursor: default;
 }
 
-.weather-temperature .active:hover {
-  text-decoration: none;
+.weather-forecast {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #494949;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: white;
+  font-weight: 100;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 18px;
 }
 
 .signature {
@@ -112,4 +131,9 @@ a {
 
 .signature a {
   color: #b3ccce;
+  text-decoration: none;
+}
+
+.signature a:hover {
+  text-decoration: underline;
 }
