@@ -58,7 +58,7 @@ li:first-letter {
 }
 
 .weather-app .btn {
-  background: #444444;
+  background: #494949;
   color: white;
   font-weight: 700;
   font-size: 14px;
@@ -73,7 +73,7 @@ li:first-letter {
 }
 
 .weather-temperature img {
-  margin-top: -40px;
+  margin-top: auto;
   height: 100px;
   width: 100px;
 }
@@ -87,14 +87,13 @@ li:first-letter {
 }
 
 .weather-temperature .units {
-  color: #212121;
-  font-size: 28px;
-  line-height: 36px;
-  font-weight: 900;
+  color: #494949;
+  font-size: 19px;
+  font-weight: 800;
   position: relative;
-  margin-right: 15px;
+  margin-right: 3px;
   line-height: 1;
-  top: -34px;
+  top: -40px;
 }
 
 .signature {
