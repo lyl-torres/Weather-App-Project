@@ -73,7 +73,7 @@ li:first-letter {
 }
 
 .weather-temperature img {
-  margin-top: auto;
+  margin-bottom: -15px;
   height: 100px;
   width: 100px;
 }
