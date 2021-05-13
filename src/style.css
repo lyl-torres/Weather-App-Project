@@ -94,11 +94,22 @@ li:first-letter {
   margin-right: 3px;
   line-height: 1;
   top: -40px;
+}
+
+a {
+  color: #494949;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
   text-decoration: none;
 }
 
 .signature {
   color: #a9a6b3;
   position: relative;
-  text-decoration: none;
+}
+
+.signature a {
+  color: #b3ccce;
 }
