@@ -88,10 +88,10 @@ li:first-letter {
 
 .weather-temperature .units {
   color: #212121;
-  font-size: 19px;
+  font-size: 15px;
   font-weight: 700;
   position: relative;
-  margin-right: 3px;
+  margin-right: 1px;
   line-height: 1;
   top: -40px;
 }
